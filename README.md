@@ -13,7 +13,8 @@ HOW TO USE:
 
 1. Clone Repo into temp directory
 2. Make setup.sh executable with "chmod +x setup.sh"
-3. Reboot and make sure everything is working correctly
+3. Run setup.sh as root
+4. Reboot and pray that everything worked
 
 
 Please Note: This is not a one stop shop for your xorg.conf woes. This is an attempt to streamline my situation, and I decided to make my code somewhat resuable so some more people will get use out of it.
