@@ -11,7 +11,7 @@ fi
 chmod 755 xswitcher
 
 #move the xorg.conf generator script to correct place
-mv ./xswitcher /etc/init.d/
+cp ./xswitcher /etc/init.d/
 echo "Moving xswitcher to 'etc/init.d'"
 
 

@@ -34,7 +34,7 @@ EndSection
 Section "Device"
 Identifier "nvidia"
 Driver "nvidia"
-BusID  "PCI:${pciID}:0:0" 
+BusID  "PCI:$((16#${pciID})):0:0" 
 Option "AllowEmptyInitialConfiguration"
 Option "AllowExternalGpus"
 EndSection
